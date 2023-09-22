@@ -1,0 +1,23 @@
+{
+  "name": "deserialize-eos-return-value",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "Nathan James",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nsjames/deserialize-eos-return-value.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@wharfkit/session": "^1.0.0",
+    "@wharfkit/wallet-plugin-anchor": "^1.0.4",
+    "@wharfkit/wallet-plugin-privatekey": "^1.0.0",
+    "@wharfkit/web-renderer": "^1.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "type": "module"
+}
